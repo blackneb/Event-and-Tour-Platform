@@ -1,0 +1,30 @@
+.side-bar{
+    border: 1px rgb(224, 240, 223) solid;
+    width: 200px;
+    padding-top: 20px;
+    height: 530px;
+    border-radius: 10px;
+}
+.list-assign{
+    text-decoration: none;
+    color: black;
+}
+.list-ass{
+    padding: 10px;
+    text-decoration: none;
+    list-style: none;
+    border-radius: 10px;
+    color: black;
+}
+.list-ass:hover{
+    background-color: rgb(119, 231, 109);
+}
+.maineventbox{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.userstatmain{
+    text-align: center;
+}

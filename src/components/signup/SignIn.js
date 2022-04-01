@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Boxes = (props) =>{
     return(
@@ -27,7 +28,9 @@ const SignIn=()=>{
             <hr/>
             <form>
                 {pros.map((e)=><Boxes lab={e.labe}/>)}
-                <p><a className='dontlink'>Don't have an account?</a></p>
+                <Link  to="/signup" className='dontlink'>
+                  <p>Don't have an account?</p>
+                </Link>
                 <input type="submit" className='sub-button' value="Sign in"/>
             </form>
         </div>

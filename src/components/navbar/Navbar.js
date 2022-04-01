@@ -1,4 +1,4 @@
-import React,{Component, useState} from 'react';
+import React,{useState} from 'react';
 import './navbar.css';
 import {Link} from 'react-router-dom';
 import menu from './menu.png';
@@ -33,9 +33,13 @@ const Navbar = () => {
                 <Link  to="/signup" className='links-signup'>
                   <li>Sign up</li>
                 </Link>
+                <Link  to="/admins" className='links-signup'>
+                  <li>Admin</li>
+                </Link>
+
           </ul>
           <button className='mobile-menu-icon' onClick={() => setIsMobile(!isMobile)}>
-            {isMobile? <img src={close} className='close-style'/> : <img src={menu} className='menu-style'/> }
+            {isMobile? <img src={close} alt="" className='close-style'/> : <img src={menu} alt="" className='menu-style'/> }
           </button>
       </nav> 
   )
