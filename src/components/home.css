@@ -1,0 +1,38 @@
+.pic{
+    width: 80px;
+}
+.cards{
+    text-align: center;
+    margin: 25px;
+    margin-top: 5px;
+}
+.cards-display{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.et-shadow{
+    padding: 15px;
+    box-shadow: 0 4px 8px 0 rgba(119,231,109,0.2), 0 6px 20px 0 rgba(119,231,0.9,0.19);
+}
+.card-layout{
+    border: 0.5px rgb(119, 231, 109) solid;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(119,231,109,0.2), 0 6px 20px 0 rgba(119,231,0.9,0.19);
+
+    
+}
+.header-of-names{
+    margin-left: 30px;
+    margin-top: 15px;
+    color: rgb(102, 155, 97);
+}
+.contact-shadow{
+    padding: 15px;
+    box-shadow: 0 4px 8px 0 rgba(119,231,109,0.2), 0 6px 20px 0 rgba(119,231,0.9,0.19);
+}

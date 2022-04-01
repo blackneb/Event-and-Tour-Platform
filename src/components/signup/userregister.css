@@ -1,0 +1,59 @@
+.maindiv{
+    text-align: center;
+    height: 450px;
+}
+.box{
+    border: 0.5px rgb(119, 231, 109) solid;
+    width: 460px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+.boxes{
+    border-radius: 5px;
+    width: 200px;
+    height: 25px;
+    margin: 8px;
+    border: 1px rgb(119, 231, 109) solid;
+    padding: 15px 10px;
+}
+.sub-button{
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 15px;
+    padding: 5px;
+    border: 1px rgb(119, 231, 109) solid;
+    background-color: rgb(119, 231, 109);
+}
+.regis{
+    padding: 10px;
+}
+.dontlink{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+hr{
+    background-color: rgb(119, 231, 109);
+}
+.selector{
+    text-align: center;
+    margin-top: 50px;
+}
+.select-signup{
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 15px;
+    padding: 5px;
+    border: 1px rgb(119, 231, 109) solid;
+    background-color: white;
+}
+.select-signin{
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 15px;
+    padding: 5px;
+    border: 1px rgb(119, 231, 109) solid;
+    background-color: white;
+}
